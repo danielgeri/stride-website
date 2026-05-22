@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stride | Track Milestones & Smash Goals</title>
+    <meta name="description" content="Stride is a milestone tracking app that turns personal goals into a game. Create bingo-style cards, earn custom icons, and celebrate your wins with confetti.">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Open Graph for SEO/Social Sharing -->
+    <meta property="og:title" content="Stride | Track Milestones & Smash Goals">
+    <meta property="og:description" content="Turn personal goals into a game with bingo-style cards and confetti celebrations.">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <div class="bg-glow"></div>
+    <div class="bg-glow right"></div>
+
+    <nav>
+        <a href="index.html" class="logo-container">
+            <!-- Simple App Logo Placeholder -->
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+            </svg>
+            Stride
+        </a>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="privacy.html">Privacy</a>
+            <a href="https://nikolabs.co/" target="_blank" rel="noopener">by Niko Labs</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="badge">Now in early access</div>
+            <h1>Turn Your Goals Into a Game</h1>
+            <p>Create custom bingo-style milestone cards. Track habits, fitness, and resolutions. Celebrate every win with glorious confetti across all your devices.</p>
+            
+            <div class="download-buttons">
+                <a href="#" class="btn">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M14.307 10.613c.044-3.13 2.613-4.664 2.73-4.733-1.464-2.146-3.738-2.434-4.545-2.464-1.928-.198-3.766 1.144-4.75 1.144-.985 0-2.493-1.11-4.04-1.077-2.023.033-3.896 1.183-4.935 3.003-2.096 3.65-.536 9.06 1.503 12.03 1.002 1.455 2.17 3.1 3.732 3.045 1.5-.065 2.062-.976 3.882-.976 1.808 0 2.338.976 3.905.943 1.6-.033 2.593-1.487 3.582-2.94 1.146-1.685 1.62-3.322 1.64-3.41-.035-.015-3.175-1.22-3.21-4.86M11.966 5.61c.82-.996 1.373-2.384 1.222-3.765-1.184.048-2.61.79-3.45 1.785-.668.784-1.326 2.203-1.154 3.553 1.317.102 2.56-.69 3.382-1.573z"/></svg>
+                    <div class="btn-text">
+                        <span>Download on the</span>
+                        <span>App Store</span>
+                    </div>
+                </a>
+                <a href="#" class="btn">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3.609 1.814L13.792 12 3.61 22.186c-.165-.152-.296-.341-.383-.553-.087-.213-.131-.441-.131-.671V3.038c0-.23.044-.458.131-.671.087-.212.218-.401.382-.553zM14.654 12.862l4.896 4.896-14.33 8.077 9.434-12.973zM15.518 12l4.992-4.992 1.71 1.056c.433.268.694.733.694 1.242 0 .509-.261.974-.694 1.242l-1.71 1.056-4.992-4.992zM14.654 11.138L5.22-1.835 19.55 6.242l-4.896 4.896z"/></svg>
+                    <div class="btn-text">
+                        <span>Get it on</span>
+                        <span>Google Play</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="app-preview">
+            <div class="mockup">
+                <div class="mockup-inner">
+                    <div class="mockup-header">
+                        <h4>2026 Goals</h4>
+                        <p>5/9 Completed</p>
+                    </div>
+                    <div class="bingo-grid" id="demo-grid">
+                        <div class="bingo-cell active">📚</div>
+                        <div class="bingo-cell">🏃</div>
+                        <div class="bingo-cell active">🎸</div>
+                        <div class="bingo-cell">🧘</div>
+                        <div class="bingo-cell active">🎯</div>
+                        <div class="bingo-cell">✈️</div>
+                        <div class="bingo-cell active">💧</div>
+                        <div class="bingo-cell active">🥗</div>
+                        <div class="bingo-cell">💸</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section" id="features">
+            <h2 class="section-title">Why use Stride?</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Bingo-Style Cards</h3>
+                    <p>Ditch the boring lists. Organize your goals into beautiful, customizable 3x3 or 4x4 grids that make tracking progress visual and fun.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎉</div>
+                    <h3>Rewarding Confetti</h3>
+                    <p>Every milestone you hit triggers a satisfying burst of confetti. Because your personal wins deserve a proper celebration.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">☁️</div>
+                    <h3>Seamless Sync</h3>
+                    <p>Built with Firebase and Google Sign-in. Your goals instantly sync across your iPhone, Android, and tablets so you're always up to date.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="mailto:support@strideapp.com">Support</a>
+            <a href="#">Press Kit</a>
+        </div>
+        <p>&copy; 2026 Stride App. All rights reserved.</p>
+        <a href="https://nikolabs.co/" target="_blank" rel="noopener" class="niko-credit">
+            Created by <img src="https://nikolabs.co/assets/images/logo.svg" alt="Niko Labs">
+        </a>
+    </footer>
+
+    <!-- Canvas for Confetti -->
+    <canvas id="confetti-canvas" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 100;"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
